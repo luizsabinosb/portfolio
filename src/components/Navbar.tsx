@@ -3,15 +3,16 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 const Navbar = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur px-8 py-4 flex justify-between items-center text-white">
-      {/* Links à esquerda */}
-      <nav className="flex gap-6 text-sm font-medium">
+      
+      {/* Links à esquerda (ocultos em telas pequenas) */}
+      <nav className="hidden md:flex gap-6 text-sm font-medium">
         <a href="#home" className="hover:text-cyan-400 transition">Luiz Sabino</a>
         <a href="#about" className="hover:text-cyan-400 transition">Sobre</a>
         <a href="#experience" className="hover:text-cyan-400 transition">Experiência</a>
         <a href="#projects" className="hover:text-cyan-400 transition">Projetos</a>
       </nav>
 
-      {/* Ícones sociais à direita */}
+      {/* Ícones sociais (sempre visíveis) */}
       <div className="flex gap-4 text-white text-lg">
         <a href="mailto:devluizsabino@gmail.com" className="hover:text-cyan-400 transition" aria-label="Email">
           <FaEnvelope />

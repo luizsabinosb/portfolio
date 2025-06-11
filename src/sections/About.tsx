@@ -4,9 +4,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#0a0a0a] text-white py-20 px-6 h-screen flex justify-center items-center"
+      className="bg-[#0a0a0a] text-white py-20 px-6 min-h-screen flex justify-center items-center"
     >
-      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-12">
+      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-12 text-justify">
         {/* Texto */}
         <div className="w-full md:w-2/3 space-y-6">
           <h2 className="text-xl font-semibold text-white/80 border-b border-white/10 pb-2 tracking-wider">

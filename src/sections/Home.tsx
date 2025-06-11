@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-[#0a0a0a] text-white h-screen flex justify-center items-center"
+      className="bg-[#0a0a0a] text-white min-h-screen flex justify-center items-center px-4"
     >
-      <div className="text-center px-4 max-w-2xl space-y-6">
+      <div className="text-center w-full max-w-xl space-y-6">
         <motion.h1
           className="text-4xl sm:text-5xl font-bold leading-tight"
           initial={{ opacity: 0 }}
