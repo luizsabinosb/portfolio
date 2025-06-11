@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
+import { FaEnvelope } from "react-icons/fa"
 
 const Hero = () => {
   return (
@@ -51,12 +52,12 @@ const Hero = () => {
 
         <motion.a
           href="mailto:devluizsabino@gmail.com"
-          className="inline-block mt-2 border border-cyan-400 text-cyan-400 px-6 py-2 rounded-full hover:bg-cyan-400 hover:text-black transition"
+          className="inline-flex items-center justify-center gap-2 mt-2 border border-cyan-400 text-cyan-400 px-5 py-2 rounded-md hover:bg-cyan-400 hover:text-black transition"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2.5, duration: 0.8 }}
         >
-          Diga oi!
+          <FaEnvelope className="text-sm" /> Diga oi!
         </motion.a>
       </div>
     </section>
