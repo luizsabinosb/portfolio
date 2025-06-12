@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    
+
     <div className={`${geistSans.className} ${geistMono.className} bg-[#0a0a0a] text-white scroll-smooth`}>
       <Head>
         <title>Luiz Sabino</title>
@@ -29,6 +29,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Navbar />
       <main>
         <Hero />
