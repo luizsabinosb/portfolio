@@ -36,7 +36,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.8 }}
           >
-            Eu transformo ideias em códigos - entre goles de café!
+            Eu crio ideias e transformo em código!
           </motion.h2>
 
           <motion.p
