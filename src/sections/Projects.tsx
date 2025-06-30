@@ -32,6 +32,12 @@ const projects = [
     stack: ["Python", "MediaPipe", "OpenCV"],
     repo: "https://github.com/luizsabinosb/bodyVision",
   },
+  {
+    title: "Maze AI",
+    description: "Simulador que usa IA para comparar caminhos em labirintos gerados automaticamente.",
+    stack: ["Python", "Pygame", "BFS", "A*"],
+    repo: "https://github.com/luizsabinosb/mazeai",
+  },
 ];
 
 const fadeIn = {
