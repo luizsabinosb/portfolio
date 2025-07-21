@@ -9,10 +9,10 @@ const projects = [
     repo: "https://github.com/luizsabinosb/cactushub",
   },
   {
-    title: "Elden Ring Front End",
-    description: "Interface visual que exibe detalhes de chefes e locais do jogo Elden Ring com design interativo.",
-    stack: ["React", "Tailwind", "Axios"],
-    repo: "https://github.com/luizsabinosb/elden-ring-front",
+    title: "Interstellar",
+    description: "Simulador visual da dilatação do tempo para quem se aproxima de um buraco negro, inspirado em Interestelar..",
+    stack: ["JavaScript", "Phaser", "HTML"],
+    repo: "https://github.com/luizsabinosb/interstellar",
   },
   {
     title: "Elden Ring Back End",
