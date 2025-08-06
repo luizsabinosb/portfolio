@@ -10,6 +10,16 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
+    company: "Memora Processos Inovadores S/A",
+    role: "Desenvolvedor Full-Stack",
+    period: "Ago 2025 - ",
+    details: [
+      "Desenvolvimento e aprimoramento contínuo do Sistema de Serviços corporativo.",
+      "Estudo de diversas stacks e tecnologias, incluindo: HTML, CSS, JavaScript, Angular, TypeScript, React, Java, PHP, Python, Node.js, Oracle e MySQL.",
+      "Atualizações e melhorias nos produtos da empresa, com foco em aprimorar a experiência do usuário (UX).",
+    ],
+  },
+  {
     company: "Milky Moo Franchising",
     role: "Estagiário de Tecnologia e Inovação",
     period: "Fev 2025 - Abr 2025",
